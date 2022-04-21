@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.menu-cima {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-cima-item {
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.meio {
+    margin-bottom: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.meio-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.meio-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.meio-principal-escrito-titulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFF2E7;
+}
